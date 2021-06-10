@@ -1,0 +1,114 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Open sans, sans-serif;
+  height: 100vh;
+  left: 5rem;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+
+.sidebar{
+  background-color:rgb(36, 35, 35);
+  position: fixed;
+  left: 0rem;
+  height: 100%;
+  width: 10%;
+}
+
+/*nfd-top*/
+.wrapper1 {
+  color: #0EC261;
+  padding-left: 5rem;
+}
+/*nfd main*/
+.wrapper2{
+  padding-left: 5rem;
+  padding-top: 5rem;
+  font-size: 5vw;
+}
+/*каршеринг*/
+.wrapper3{
+  padding-left: 5rem;
+  font-size: 5vw;
+  color: #0EC261;
+}
+/*поминутная аренда*/
+.wrapper4{
+  padding-left: 5rem;
+  padding-top: 2vw;
+  color:rgba(160, 146, 145, 0.651);
+  font-size: 2vw;
+}
+
+/*©*/
+.wrapper5{
+  display: inline-block;
+  padding-left: 5rem;
+  text-align: left;
+  padding-top: 2vw;
+  color: rgba(160, 146, 145, 0.651);
+  
+  font-size: 16px;
+}
+
+/*phone*/
+.wrapper6{
+  display: inline-block;
+  text-align: center;
+  margin-left: 15vw;
+  font-size: 16px;
+}
+
+.spacer {
+  padding-bottom: 10vw;
+}
+
+.b1{
+  width: 250px;
+  height: 48px;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  
+  
+  border: aliceblue;
+  background: linear-gradient(90deg, #0EC261 2.61%, #039F67 112.6%);
+  background-blend-mode: darken;
+  border-radius: 9px;
+  right: 0%;
+  bottom: 22.92%;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+
+  nav{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    z-index: 50;
+  }
+
+  .burger-btn:before {
+    content: '';
+    position: absolute;
+    top: 0rem;
+  }
+
+  .burger-btn:after{
+    content: '';
+    position: absolute;
+    bottom: 0rem;
+  }
+
