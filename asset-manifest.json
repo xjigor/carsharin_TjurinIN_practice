@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/carsharin_TjurinIN_practice_MAIN/static/css/main.64938487.chunk.css",
+    "main.css": "/carsharin_TjurinIN_practice_MAIN/static/css/main.c39166cb.chunk.css",
     "main.js": "/carsharin_TjurinIN_practice_MAIN/static/js/main.bc64425a.chunk.js",
     "main.js.map": "/carsharin_TjurinIN_practice_MAIN/static/js/main.bc64425a.chunk.js.map",
     "runtime-main.js": "/carsharin_TjurinIN_practice_MAIN/static/js/runtime-main.87776cb2.js",
@@ -8,7 +8,7 @@
     "static/js/2.a74265ba.chunk.js": "/carsharin_TjurinIN_practice_MAIN/static/js/2.a74265ba.chunk.js",
     "static/js/2.a74265ba.chunk.js.map": "/carsharin_TjurinIN_practice_MAIN/static/js/2.a74265ba.chunk.js.map",
     "index.html": "/carsharin_TjurinIN_practice_MAIN/index.html",
-    "static/css/main.64938487.chunk.css.map": "/carsharin_TjurinIN_practice_MAIN/static/css/main.64938487.chunk.css.map",
+    "static/css/main.c39166cb.chunk.css.map": "/carsharin_TjurinIN_practice_MAIN/static/css/main.c39166cb.chunk.css.map",
     "static/js/2.a74265ba.chunk.js.LICENSE.txt": "/carsharin_TjurinIN_practice_MAIN/static/js/2.a74265ba.chunk.js.LICENSE.txt",
     "static/media/left-arrow.da21225b.svg": "/carsharin_TjurinIN_practice_MAIN/static/media/left-arrow.da21225b.svg",
     "static/media/right-arrow.d19ce8f8.svg": "/carsharin_TjurinIN_practice_MAIN/static/media/right-arrow.d19ce8f8.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.87776cb2.js",
     "static/js/2.a74265ba.chunk.js",
-    "static/css/main.64938487.chunk.css",
+    "static/css/main.c39166cb.chunk.css",
     "static/js/main.bc64425a.chunk.js"
   ]
 }
