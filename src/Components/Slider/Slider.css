@@ -35,33 +35,37 @@
 
 .btn-slide {
   width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: #ffffff;
+  height: 1000px;
+  /* left: 615px;*/
+  opacity: 0;
   border: 1px solid rgba(34, 34, 34, 0.287);
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: .4;
   cursor: pointer;
-}
+  }
+
+.btn-slide:hover {background: #0EC261;opacity: 0.2;} 
 
 .btn-slide img {
   width: 25px;
   height: 25px;
   pointer-events: none;
 }
+
 .prev {
   top: 50%;
-  left: 20px;
-  transform: translateY(-60%);
-}
-.next {
+  left: 0px;
+  transform: translateY(-50%);  
+  
+  }
+  .next {
   top: 50%;
-  right: 20px;
-  transform: translateY(-60%);
-}
+  right: 0px;
+  transform: translateY(-50%);
+  
+  }
 
 
 .container-dots {
@@ -79,6 +83,58 @@
   margin: 0 5px;
   background: #f1f1f1;
 }
+
 .dot.active {
-  background: rgb(32, 32, 32);
+  background: #0EC261;
+  border: 3px solid #0EC261;
+  }
+
+.text-cont{
+  position: absolute;
+  width: 421px;
+  height: 47px;
+  left: 62px;
+  top: 237px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  
+  color: #FFFFFF;
+  }
+
+.text1{
+  position: absolute;
+  width: 495px;
+  height: 72px;
+  left: 62px;
+  top: 292px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  
+  color: #EEEEEE;
 }
+  
+.b{
+  position: absolute;
+  left: 62px;
+  right: 0%;
+  width: 164px;
+  height: 48px;
+  top: 400px;
+  bottom: 22.97%;
+  color: #EEEEEE;
+  background: linear-gradient(90deg, #13493F 0%, #0C7B1B 100%);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  border: aliceblue;
+  font-weight: 500;
+  font-size: 18px;
+  }
